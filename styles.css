@@ -1,6 +1,10 @@
-/* add import @ font via Google Fonts */ 
+
 
 /* add CSS reset */ 
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+</style>
 
 body {
     background-color: #F4D04E;
@@ -13,7 +17,6 @@ body {
 section {
     height: auto; 
     max-width: 100%; 
-    
 }
 
 footer {
