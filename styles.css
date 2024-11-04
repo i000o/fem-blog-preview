@@ -1,0 +1,21 @@
+/* add import @ font via Google Fonts */ 
+
+/* add CSS reset */ 
+
+body {
+    background-color: #F4D04E;
+    font-family: 'figtree', sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+section {
+    height: auto; 
+    max-width: 100%; 
+    
+}
+
+footer {
+    display: flex; 
+}
