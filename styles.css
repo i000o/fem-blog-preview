@@ -1,24 +1,74 @@
-
-
-/* add CSS reset */ 
-
-<style>
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
-</style>
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul { 
+    list-style: none;
+}
 
 body {
     background-color: #F4D04E;
     font-family: 'figtree', sans-serif;
     display: flex;
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
 }
 
 section {
     height: auto; 
-    max-width: 100%; 
+    max-width: 20rem; 
+    background-color: #FFFFFF;
+    border: solid;
+    border-radius: 16px;
+    box-shadow: 10px 10px #000000;
+    padding: 16px;
+}
+
+.illustration {
+    height: auto; 
+    display: block; 
+    max-width: 100%;
+    border-radius: 16px;
+}
+
+
+p {
+    font-size: 1rem;
+    color: rgb(107 107 107);
+    padding: 10px;
+}
+
+.profile {
+    display: inline;
+}
+
+h3 {
+    display: inline;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+
+h5 {
+    display: inline-block;
+    background-color: #F4D04E;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 0;
 }
 
 footer {
     display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
 }
