@@ -7,33 +7,32 @@
   box-sizing: border-box;
 }
 
-ul { 
-    list-style: none;
-}
-
 body {
     background-color: #F4D04E;
     font-family: 'figtree', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center; 
     align-items: center;
     text-align: left;
+    min-height: 100svh;
+    gap: 2rem; /* what is this doing? */ 
 }
 
 section {
     height: auto; 
-    max-width: 20rem; 
+    max-width: 22rem; 
     background-color: #FFFFFF;
     border: solid;
+    border-width: 1px;
     border-radius: 16px;
     box-shadow: 10px 10px #000000;
     padding: 16px;
 }
 
 .illustration {
-    height: auto; 
     display: block; 
+    height: auto; 
     max-width: 100%;
     border-radius: 16px;
 }
@@ -42,28 +41,39 @@ section {
 p {
     font-size: 1rem;
     color: rgb(107 107 107);
-    padding: 10px;
+    padding: 0px;
+    margin: 10px 0 10px 0;
+    line-height: 150%;
+}
+
+.author-profile {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
 }
 
 .profile {
-    display: inline;
+    width: 10%;
 }
 
 h3 {
-    display: inline;
+    font-size: 0.9rem;
+    padding: 10px 5px 10px 5px;
+    margin: 10px 10px;
 }
 
 h4 {
     font-weight: normal;
+    margin: 10px 0 10px 0;
+    font-size: 0.8rem;
 }
-
 
 h5 {
     display: inline-block;
     background-color: #F4D04E;
     border-radius: 5px;
-    padding: 10px 15px;
-    margin: 0;
+    padding: 5px 15px;
+    margin: 20px 0 10px 0;
 }
 
 footer {
