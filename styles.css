@@ -17,6 +17,7 @@ body {
     text-align: left;
     min-height: 100svh;
     gap: 2rem; /* what is this doing? */ 
+    font-size: 1.4vw; /* using vw instead of rem as a way to responsively have text adjust without m. queries */ 
 }
 
 section {
@@ -39,7 +40,6 @@ section {
 
 
 p {
-    font-size: 1rem;
     color: rgb(107 107 107);
     padding: 0px;
     margin: 10px 0 10px 0;
@@ -65,12 +65,13 @@ h3 {
     font-size: 0.9rem;
     padding: 10px 5px 10px 5px;
     margin: 10px 10px;
+    font-size: 1.4vw;
 }
 
 h4 {
     font-weight: normal;
     margin: 10px 0 10px 0;
-    font-size: 0.8rem;
+    font-size: 1.4vw;
 }
 
 h5 {
