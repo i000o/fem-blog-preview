@@ -7,6 +7,16 @@
   box-sizing: border-box;
 }
 
+a:link {
+    color: inherit; /* no blue default link color */ 
+}
+
+a:focus-visible {
+    outline-style: solid; 
+    outline-color: rgb(24, 24, 148);
+    border-radius: inherit;
+}
+
 body {
     background-color: #F4D04E;
     font-family: 'figtree', sans-serif;
@@ -68,6 +78,11 @@ h3 {
     font-size: 1.4vw;
 }
 
+h3:hover {
+    color: #F4D04E;
+    cursor: pointer;
+}
+
 h4 {
     font-weight: normal;
     margin: 10px 0 10px 0;
@@ -80,6 +95,12 @@ h5 {
     border-radius: 5px;
     padding: 5px 15px;
     margin: 20px 0 10px 0;
+}
+
+h5:hover {
+    cursor: pointer; 
+    background-color: #000000;
+    color: #F4D04E;
 }
 
 footer {
