@@ -9,12 +9,7 @@
 
 a:link {
     color: inherit; /* no blue default link color */ 
-}
-
-a:focus-visible {
-    outline-style: solid; 
-    outline-color: rgb(24, 24, 148);
-    border-radius: inherit;
+    text-decoration: none;
 }
 
 body {
@@ -83,6 +78,13 @@ h3:hover {
     cursor: pointer;
 }
 
+.author-focus:focus-visible {
+    outline-style: solid;
+    outline-color: rgb(24, 24, 148);
+    border-radius: 16px;
+    /* how to make the outline tighter to the content? */ 
+}
+
 h4 {
     font-weight: normal;
     margin: 10px 0 10px 0;
@@ -103,9 +105,26 @@ h5:hover {
     color: #F4D04E;
 }
 
+section a:focus-visible { /* why not :focus ? */ 
+    outline-style: solid; 
+    outline-color: rgb(24, 24, 148);
+}
+
+.learning-focus:focus-visible {
+    border-radius: inherit;
+}
+
 footer {
     display: flex; 
     align-items: center;
     justify-content: center;
     margin: 20px;
+}
+
+footer a:focus-visible {
+    outline-style: solid;
+    outline-color: rgb(24, 24, 148);
+    border-radius: 16px;
+    padding: 5px;
+    margin: 5px;
 }
