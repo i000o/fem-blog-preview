@@ -56,6 +56,11 @@ p {
     width: 10%;
 }
 
+h2:hover {
+    color: #F4D04E;
+    cursor: pointer;
+}
+
 h3 {
     font-size: 0.9rem;
     padding: 10px 5px 10px 5px;
