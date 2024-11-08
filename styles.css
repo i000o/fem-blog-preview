@@ -12,6 +12,10 @@ a:link {
     text-decoration: none;
 }
 
+a:visited {
+    color: inherit; /* no purple visited links */ 
+}
+
 body {
     background-color: #F4D04E;
     font-family: 'figtree', sans-serif;
@@ -43,11 +47,10 @@ section {
     border-radius: 16px;
 }
 
-
 p {
     color: rgb(107 107 107);
     padding: 0px;
-    margin: 10px 0 10px 0;
+    margin: 20px 0 10px 0;
     line-height: 150%;
 }
 
@@ -61,9 +64,22 @@ p {
     width: 10%;
 }
 
+h2 {
+    margin: 0;
+}
+
 h2:hover {
     color: #F4D04E;
     cursor: pointer;
+}
+
+.title-focus:focus-visible { 
+    display: flex;
+    flex-direction: row;
+    outline-style: solid;
+    outline-color:rgb(24, 24, 148);
+    border-radius: inherit;
+    outline-offset: 5px;
 }
 
 h3 {
@@ -80,15 +96,16 @@ h3:hover {
 
 .author-focus:focus-visible {
     outline-style: solid;
+    outline-offset: -13px; /* the only way I could find to tighten the outline to the content where margin and padding 0 had no impact */ 
     outline-color: rgb(24, 24, 148);
     border-radius: 16px;
-    /* how to make the outline tighter to the content? */ 
 }
 
 h4 {
     font-weight: normal;
     margin: 10px 0 10px 0;
     font-size: 1.4vw;
+    margin-bottom: 20px;
 }
 
 h5 {
