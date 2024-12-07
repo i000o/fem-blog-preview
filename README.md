@@ -30,12 +30,12 @@ Again, I wrote down every HTML element I could see and some initial styles like 
 
 ## Screenshot
 
-![](./FireShot%20Capture%20003%20-%20Frontend%20Mentor%20-%20QR%20code%20component%20-%20i000o.github.io.png)
+![](./Blog%20preview%20card.png)
 
 ## Links
 
-:jigsaw: Solution URL: (https://www.frontendmentor.io/solutions/responsive-qr-code-for-desktop-and-mobile-PELngEEDvJ)  
-:pencil2: Live Site URL: (https://i000o.github.io/fem-qr-challenge/)
+:jigsaw: Solution URL: (https://www.frontendmentor.io/solutions/blog-preview-card-eFv1MOEmq2)  
+:pencil2: Live Site URL: (https://i000o.github.io/fem-blog-preview/)
 
 ## Built with
 
@@ -45,19 +45,19 @@ Again, I wrote down every HTML element I could see and some initial styles like 
 
 ## Lessons
 
-1. I designed with Grid instead of Flex due to not understanding layouts well yet
-2. I wrote up media queries when I didn’t need to
-3. Accessibility Law requires that every page must have a h1 on it somewhere. What do we do when there isn’t an obvious one?
+1. `focus` vs. `focus-visible:` The difference is still unclear to me, but I will keep an eye out to pay attention to this in future because it had implications on this solution that I’d like to understand
+2. Ordering elements in a stack visually: I wanted to use the `order` property by making a flex container but this seemed to complicate the problem… Instead I reordered in the HTML, which I didn’t want to do... What’s the best way to address this?
+3. My focus states only work in Safari… not Chrome. I had fun making them, though
 
 ## Take forward
 
-:grey_exclamation: Do the simplest thing. Don’t overdo things and give yourself unnecessary, time-consuming work.  
-:grey_exclamation: Your design-eye comes in handy here… You notice things that others don’t.
+:grey_exclamation: I can really loyally pull off a design with CSS. What else can CSS do? Excited to get into animations etc…  
+:grey_exclamation: Pay attention to focus states in the future… I hadn’t really considered these before.  
+:grey_exclamation: I can work a lot faster than I thought. HTML + CSS are coming more naturally to me now…  
+:grey-exclamation: Hover states are fun
 
 ## Feedback
 
-I got positive and really helpful feedback on this project which I integrated on reflection after sharing. This included how to center content in Flexbox and style font-sizes with relative units. See below:
+I received positive feedback on this solution namely that it captures the original design accurately. I also discussed some challenges I had with peer-learners.
 
-![](./QR-feedback.png)
-
-Source: (https://www.frontendmentor.io/solutions/responsive-qr-code-for-desktop-and-mobile-PELngEEDvJ)
+_“Great design, looks very close to the original! The code is well-written and easy to read.”_
