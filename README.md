@@ -54,7 +54,7 @@ Again, I wrote down every HTML element I could see and some initial styles like 
 :grey_exclamation: I can really loyally pull off a design with CSS. What else can CSS do? Excited to get into animations etc…  
 :grey_exclamation: Pay attention to focus states in the future… I hadn’t really considered these before.  
 :grey_exclamation: I can work a lot faster than I thought. HTML + CSS are coming more naturally to me now…  
-:grey-exclamation: Hover states are fun
+:grey_exclamation: Hover states are fun
 
 ## Feedback
 
