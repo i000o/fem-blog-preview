@@ -24,9 +24,9 @@ I was provided some design images of both desktop and mobile, no Figma file this
 
 ## Approach
 
-I approached this task with more confidence since I knew to keep it simple and use a Flex layout with a `code`flex-direction: column;.
+I approached this task with more confidence since I knew to keep it simple and use a Flex layout with a `flex-direction: column;`.
 
-Again, I wrote down every HTML element I could see and some initial styles like `code`background-color`code`.
+Again, I wrote down every HTML element I could see and some initial styles like `background-color`.
 
 ## Screenshot
 
